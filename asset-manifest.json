@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SHAHZADcodr/react001-quiz/static/css/main.4b18f7e4.css",
+    "main.js": "/SHAHZADcodr/react001-quiz/static/js/main.69eb2b12.js",
+    "static/js/453.2b0627e5.chunk.js": "/SHAHZADcodr/react001-quiz/static/js/453.2b0627e5.chunk.js",
+    "static/media/education.jpeg": "/SHAHZADcodr/react001-quiz/static/media/education.fb6d0e8cf50ef3ee3df5.jpeg",
+    "static/media/sport.jpg": "/SHAHZADcodr/react001-quiz/static/media/sport.e9df3b0d8fc354453a37.jpg",
+    "static/media/funFact.jpg": "/SHAHZADcodr/react001-quiz/static/media/funFact.4a9750775dd60e6edd97.jpg",
+    "static/media/nature.webp": "/SHAHZADcodr/react001-quiz/static/media/nature.3e54b28b23f4db23779b.webp",
+    "static/media/constitution.jpg": "/SHAHZADcodr/react001-quiz/static/media/constitution.74d100db33dea3ca5a72.jpg",
+    "static/media/historical.jpg": "/SHAHZADcodr/react001-quiz/static/media/historical.5c63be878bc89a0a4d00.jpg",
+    "static/media/cursor.svg": "/SHAHZADcodr/react001-quiz/static/media/cursor.432206ab9497de689ae7.svg",
+    "index.html": "/SHAHZADcodr/react001-quiz/index.html",
+    "main.4b18f7e4.css.map": "/SHAHZADcodr/react001-quiz/static/css/main.4b18f7e4.css.map",
+    "main.69eb2b12.js.map": "/SHAHZADcodr/react001-quiz/static/js/main.69eb2b12.js.map",
+    "453.2b0627e5.chunk.js.map": "/SHAHZADcodr/react001-quiz/static/js/453.2b0627e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b18f7e4.css",
+    "static/js/main.69eb2b12.js"
+  ]
+}
