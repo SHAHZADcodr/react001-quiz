@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 // Components
 import MyNavbar from "./components/Nav";
 import Categories from "./components/Categories";
@@ -15,13 +15,11 @@ import NaturePage from "./pages/Nature";
 
 function App() {
   return (
-    <>
+    <Router>
       <MyNavbar />
       <Routes>
-        <Route path="/" element={<Categories />} />{" "}
         {/* Render Categories on Home */}
-        <Route path="*" element={<Categories />} />
-        {/* Pages route */}
+        <Route path="/" element={<Categories />} /> {/* Pages route */}
         <Route path="/historical" element={<HistorialPage />} />
         <Route path="/nature" element={<NaturePage />} />
         <Route path="/constitutional" element={<ConstitutionalPage />} />
@@ -29,7 +27,7 @@ function App() {
         <Route path="/general" element={<GeneralPage />} />
         <Route path="/sport" element={<SportPage />} />
       </Routes>
-    </>
+    </Router>
   );
 }
 

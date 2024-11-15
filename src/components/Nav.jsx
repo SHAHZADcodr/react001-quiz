@@ -8,7 +8,7 @@ import "../styles/Nav.css"; // Custom CSS for additional styling
 const MyNavbar = () => {
     return (
         <Navbar expand="lg" className="mb-4 navbar-custom fixed-top">
-            <Navbar.Brand href="/" className="brand-text">
+            <Navbar.Brand href="#" className="brand-text">
                 <strong> <i id='brand'>quiZ</i></strong>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" className='toggleBar'/>
