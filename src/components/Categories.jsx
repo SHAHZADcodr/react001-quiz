@@ -18,7 +18,7 @@ const Categories = () => {
     { title: 'Nature', path: '/nature', image: Nature, intro: 'Explore the wonders of nature through quizzes.' },
     { title: 'Historical', path: '/historical', image: Historial, intro: 'Dive into history and test your historical knowledge.' },
     { title: 'Fun Fact', path: '/funFact', image: FunFact, intro: 'Discover intriguing fun facts with our quizzes.' },
-    { title: 'Constitution', path: '/constitution', image: Constitution, intro: 'Learn about the constitution and test your knowledge with quizzes.' },
+    { title: 'Constitution', path: '/constitutional', image: Constitution, intro: 'Learn about the constitution and test your knowledge with quizzes.' },
   ];
 
   // Filter categories based on the search term

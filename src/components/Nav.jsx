@@ -19,6 +19,7 @@ const MyNavbar = () => {
                     <Nav.Link href="/sport" className="nav-link">Sport</Nav.Link>
                     <Nav.Link href="/nature" className="nav-link">Nature</Nav.Link>
                     <Nav.Link href="/historical" className="nav-link">Historical</Nav.Link>
+                    <Nav.Link href="/constitutional" className="nav-link">Constitutional</Nav.Link>
                     <Nav.Link href="/funFact" className="nav-link">Fun Facts</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

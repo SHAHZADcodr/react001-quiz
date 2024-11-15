@@ -4,20 +4,31 @@ import { Routes, Route ,Switch} from "react-router-dom";
 // Components
 import MyNavbar from "./components/Nav";
 import Categories from "./components/Categories";
-import Questions from "./components/Question";
 
+//Pages
+import GeneralPage from "./pages/General";
+import SportPage from "./pages/Sport";
+import FunFactPage from "./pages/Funfact";
+import ConstitutionalPage from "./pages/Constitutional";
+import HistorialPage from "./pages/Historical";
+import NaturePage from "./pages/Nature";
 
 function App() {
   return (
     <>
-        <MyNavbar />
-        <Routes>
-          <Route path="/" element={<Categories />} />{" "}
-          {/* Render Categories on Home */}
-          <Route path="*" element={<Categories/>} />
-          {/* Dynamic category route */}
-          <Route path="/:category" element={<Questions />} />
-        </Routes>
+      <MyNavbar />
+      <Routes>
+        <Route path="/" element={<Categories />} />{" "}
+        {/* Render Categories on Home */}
+        <Route path="*" element={<Categories />} />
+        {/* Pages route */}
+        <Route path="/historical" element={<HistorialPage />} />
+        <Route path="/nature" element={<NaturePage />} />
+        <Route path="/constitutional" element={<ConstitutionalPage />} />
+        <Route path="/funFact" element={<FunFactPage />} />
+        <Route path="/general" element={<GeneralPage />} />
+        <Route path="/sport" element={<SportPage />} />
+      </Routes>
     </>
   );
 }
