@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Routes, Route ,Switch} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 // Components
 import MyNavbar from "./components/Nav";
 import Categories from "./components/Categories";
