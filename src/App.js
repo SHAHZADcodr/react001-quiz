@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 // Components
 import MyNavbar from "./components/Nav";
 import Categories from "./components/Categories";
@@ -15,7 +15,7 @@ import NaturePage from "./pages/Nature";
 
 function App() {
   return (
-    <Router>
+    <>
       <MyNavbar />
       <Routes>
         {/* Render Categories on Home */}
@@ -27,7 +27,7 @@ function App() {
         <Route path="/general" element={<GeneralPage />} />
         <Route path="/sport" element={<SportPage />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 
